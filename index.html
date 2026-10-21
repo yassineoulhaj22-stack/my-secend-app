@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YT Background Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-container">
+    <h2>مشغل يوتيوب في الخلفية 🎵</h2>
+    
+    <div class="input-box">
+      <input type="text" id="audioUrl" placeholder="حط رابط الصوت (Audio Stream URL)...">
+      <button id="playBtn">تشغيل</button>
+    </div>
+
+    <div class="player-card" id="playerCard" style="display: none;">
+      <img id="thumbnail" src="" alt="Thumbnail">
+      <h3 id="trackTitle">عنوان المقطع</h3>
+      <audio id="audioPlayer" controls></audio>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
